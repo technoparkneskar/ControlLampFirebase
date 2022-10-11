@@ -1,0 +1,23 @@
+Untuk menyambungkan esp ke wifi :
+1. Sambungkan wifi handphone ke hotspot esp8266 
+2. Setelah redirect ke browser klik connect wifi kemudian masukan ssid dan Password wifi
+Yang ingin disambungkan dengan esp8266
+3. Lampu LED_BUILDIN Esp8266 menyala wifi berhasil tersambung kemudian hotspot
+Esp8266 mati
+4. Selesai. Silahkan buka realtime firebase kalian dan atur di realtime database 
+
+Catatan tambahan :
+
+Pastikan mengubah program yang telah ditandain sesuai informasi
+
+Pin D8 to + Led
+GND to    - Led
+
+Library digunakan :
+FirebaseESP8266
+WiFiManager
+
+Alat digunakan :
+Esp8266
+Led
+JumperCable
