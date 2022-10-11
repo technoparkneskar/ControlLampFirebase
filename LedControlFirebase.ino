@@ -1,8 +1,13 @@
 #include <FirebaseESP8266.h>
 #include <WiFiManager.h>
 
-#define FIREBASE_HOST "https://areauji-default-rtdb.firebaseio.com"                     //Your Firebase Project URL goes here without "http:" , "\" and "/"
-#define FIREBASE_AUTH "Bn7LhCTiP8VphRn53K2WmcsHvV6WnexeRj7vKLa3" //Your Firebase Database Secret goes here
+//****** Harap Sesuaikan Programnya *******
+#define FIREBASE_HOST "https://areauji-default-rtdb.firebaseio.com" //Sesuaikan dengan link firebase database kalian, tanpa menggunakan "http:" , "\" and "/"
+#define FIREBASE_AUTH "Bn7LhCTiP8VphRn53K2WmcqlHvV6WnexeRj7vKLa3ns" //Sesuaikan dengan firebase database secret code kalian
+
+//Ubah di bagian dalam " <> " 
+//****** Harap Sesuaikan Programnya *******
+
 
 FirebaseData firebaseData;
 
