@@ -4,7 +4,7 @@
 //****** Harap Sesuaikan Programnya *******
 #define FIREBASE_HOST "https://areauji-default-rtdb.firebaseio.com" //Sesuaikan dengan link firebase database kalian, tanpa menggunakan "http:" , "\" and "/"
 #define FIREBASE_AUTH "Bn7LhCTiP8VphRn53K2WmcqlHvV6WnexeRj7vKLa3ns" //Sesuaikan dengan firebase database secret code kalian
-
+#define NamaHotspot "ControlLampFirebase" // Nama hotspot di esp8266
 //Ubah di bagian dalam " <> " 
 //****** Harap Sesuaikan Programnya *******
 
@@ -20,7 +20,7 @@ void setup(){
   WiFiManager wm;
     wm.resetSettings();
     bool res;
-    res = wm.autoConnect("SmartGarden");
+    res = wm.autoConnect("NamaHotspot");
     if(!res) {
      Serial.println("Failed to connect");
      // ESP.restart();
